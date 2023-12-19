@@ -45,7 +45,9 @@ footer {
     background-color: #333;
     color: #fff;
     padding: 10px;
-    text-align: center;
+}
+form{
+    display: inline;
 }
 
 .imagen_disco{
@@ -53,7 +55,7 @@ footer {
     height: 70%;
     width: 100%;
 }
-.titulo_favoritos{
+#titulo_favoritos{
     color: #f8f8f8;
     background-color:black;
 }
@@ -67,7 +69,7 @@ button{
     color: #ddd;
 }
 
-.Novedades{
+#Novedades{
     padding: 20px;
     background-color: black;
 }
@@ -76,49 +78,62 @@ button{
     font: size 50%;
 }
 
-/* styles.css */
-
-/* Estilos anteriores */
-
 footer {
-    background-color: #2c3e50;
+    background-color:rgb(14, 14, 14);
     color: #ecf0f1;
     padding: 20px;
+    padding-left: 6%;
 }
 
-.contact-form {
-    max-width: 400px;
-    margin: 0 auto;
-    text-align: left; /* Alinea el formulario a la izquierda */
+#nombre{
+    display: block;
+    width: 14%;
+    height: 50%;
+    margin-bottom: 1%;
 }
 
-.contact-form h2 {
-    color: white;
+#email{
+    display: block;
+    width: 14%;
+    height: 50%;
+    margin-bottom: 1%;
 }
-
-.contact-form form {
-    display: flex;
-    flex-direction: column;
+#mensaje{
+    display: block;
+    width: 14%;
+    height: 50%;
+    margin-bottom:1%;
 }
-
-.contact-form label {
-    margin-bottom: 5px;
-    color: #ecf0f1;
+#submit{
+    display: block;
+    width: 14.5%;
+    height: 30px;
 }
-
-.contact-form input,
-.contact-form textarea,
-.contact-form button {
-    margin-bottom: 10px;
-    padding: 8px;
-    font-size: 16px;
+#redes{
+    display: inline;
 }
-
-.contact-form button {
-    background-color: red;
-    color: #ecf0f1;
-    border: none;
-    cursor: pointer;
+.logo-twitter{
+    display: inline;
+    width: 3%;
+    height: 3%;
+    margin-right: 1%;
+}
+.logo-instagram{
+    display: inline;
+    width: 2%;
+    height: 2%;
+    margin-right: 1%;
+    margin-bottom: 0.5%;
+}
+.logo-facebook{
+    display: inline;
+    width: 2%;
+    height: 2%;
+    margin-bottom: 0.5%;
+    
+}
+.titulo-redes{
+    margin-right: 1%;
 }
 
 
